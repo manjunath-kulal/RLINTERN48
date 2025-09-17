@@ -1,0 +1,9 @@
+{
+  "loss": 0.06086071232954661,
+  "perplexity": 1.0627508163452148,
+  "bits_per_character": 0.08780344762153727,
+  "accuracy": 0.9765625,
+  "vocab_size": 41,
+  "checkpoint_path": "checkpoints/last.pt",
+  "training_step": 5000
+}
