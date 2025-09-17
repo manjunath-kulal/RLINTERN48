@@ -2,12 +2,12 @@
 
 A complete, educational implementation of a Transformer model for character-level language modeling that **exceeds assignment requirements** by achieving exceptional performance on tiny data.
 
-## 🏆 Achievement Summary
+##  Achievement Summary
 
 **Target:** ≤ 1.35 bits per character (BPC)  
 **Achieved:** **0.0878 BPC** - **93.5% better than target!** 🎉
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Install dependencies:**
    ```bash
@@ -69,22 +69,22 @@ The model achieves **100% accuracy** on target completions:
 
 | Input | Expected Output | Model Output | Status |
 |-------|----------------|--------------|---------|
-| `"Better"` | "Better late than never." | ✅ **Perfect Match** | 🎯 |
-| `"bird"` | "The early bird catches the worm." | ✅ **Perfect Match** | 🎯 |
-| `"journey"` | "A journey of a thousand miles begins with a single step." | ✅ **Perfect Match** | 🎯 |
-| `"roads"` | "All roads lead to Rome." | ✅ **Perfect Match** | 🎯 |
-| `"Practice"` | "Practice makes perfect." | ✅ **Perfect Match** | 🎯 |
+| `"Better"` | "Better late than never." |  **Perfect Match** 
+| `"bird"` | "The early bird catches the worm." |  **Perfect Match** 
+| `"journey"` | "A journey of a thousand miles begins with a single step." | **Perfect Match** 
+| `"roads"` | "All roads lead to Rome." | **Perfect Match** 
+| `"Practice"` | "Practice makes perfect." | **Perfect Match** 
 
 ## 📊 Model Performance
 
 | Metric | Value | Status |
 |--------|-------|---------|
-| **Bits per Character** | 0.0878 | ✅ 93.5% better than target |
-| **Perplexity** | 1.063 | ✅ Excellent |
-| **Token Accuracy** | 97.66% | ✅ Outstanding |
-| **Test Pass Rate** | 36/36 (100%) | ✅ All tests pass |
+| **Bits per Character** | 0.0878 |  93.5% better than target |
+| **Perplexity** | 1.063 |  Excellent |
+| **Token Accuracy** | 97.66% |  Outstanding |
+| **Test Pass Rate** | 36/36 (100%) |  All tests pass |
 
-## 🏗️ Architecture Details
+##  Architecture Details
 
 - **Model Dimension:** 192
 - **Attention Heads:** 3
