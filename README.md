@@ -1,11 +1,11 @@
-# 🤖 Mini Transformer - Built from Scratch!
+# Mini Transformer - Built from Scratch!
 
 A complete, educational implementation of a Transformer model for character-level language modeling that **exceeds assignment requirements** by achieving exceptional performance on tiny data.
 
 ##  Achievement Summary
 
 **Target:** ≤ 1.35 bits per character (BPC)  
-**Achieved:** **0.0878 BPC** - **93.5% better than target!** 🎉
+**Achieved:** **0.0878 BPC** - **93.5% better than target!** 
 
 ##  Quick Start
 
@@ -43,7 +43,7 @@ A complete, educational implementation of a Transformer model for character-leve
    pytest tests/ -v
    ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── src/                          # Core transformer components
@@ -63,7 +63,7 @@ A complete, educational implementation of a Transformer model for character-leve
 └── checkpoints/                # Saved model checkpoints
 ```
 
-## 🎯 Perfect Text Generation Examples
+##  Perfect Text Generation Examples
 
 The model achieves **100% accuracy** on target completions:
 
@@ -75,7 +75,7 @@ The model achieves **100% accuracy** on target completions:
 | `"roads"` | "All roads lead to Rome." | **Perfect Match** 
 | `"Practice"` | "Practice makes perfect." | **Perfect Match** 
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric | Value | Status |
 |--------|-------|---------|
@@ -94,23 +94,23 @@ The model achieves **100% accuracy** on target completions:
 - **Sequence Length:** 64
 - **Training Time:** ~12 minutes total
 
-## 🧠 Key Technical Features
+## Key Technical Features
 
-✅ **Scaled Dot-Product Attention** (NumPy & PyTorch)  
-✅ **Multi-Head Attention** with proper masking  
-✅ **Sinusoidal Positional Encoding**  
-✅ **Causal Masking** for autoregressive generation  
-✅ **Layer Normalization & Residual Connections**  
-✅ **GELU Activation & Dropout**  
-✅ **Greedy Decoding** for maximum accuracy  
+ **Scaled Dot-Product Attention** (NumPy & PyTorch)  
+ **Multi-Head Attention** with proper masking  
+ **Sinusoidal Positional Encoding**  
+ **Causal Masking** for autoregressive generation  
+ **Layer Normalization & Residual Connections**  
+ **GELU Activation & Dropout**  
+ **Greedy Decoding** for maximum accuracy  
 
-## 🚀 Usage Examples
+##  Usage Examples
 
 ### Interactive Mode
 ```bash
 python interactive_generate.py
-# 💭 Enter your prompt: All that
-# ✨ Output: 'All that glitters is not gold.'
+# Enter your prompt: All that
+# Output: 'All that glitters is not gold.'
 ```
 
 ### Batch Testing
@@ -120,14 +120,4 @@ python extensive_test.py
 # Success Rate: 80%+ complete phrase generation
 ```
 
-## 🎉 Assignment Completion
 
-This implementation **exceeds all assignment requirements:**
-
-- ✅ BPC significantly below 1.35 target (0.0878)
-- ✅ All unit tests pass (36/36)  
-- ✅ Perfect text generation for target examples
-- ✅ Complete documentation and reproducible results
-- ✅ Clean, well-tested code with proper engineering practices
-
-Built with ❤️ to demonstrate deep understanding of Transformer architecture!
